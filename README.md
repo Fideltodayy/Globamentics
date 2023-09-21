@@ -10,5 +10,7 @@ You can preview it in the link below:
 https://stupendous-conkies-8d30f6.netlify.app/
 
 ## Technical tools
-I used various technical tools to deliver this application's features.
+I used various technical tools to deliver this application's features:
+* I needed to use browser history so a user can use the back button to navigate back to the previous page and also to create deep links to a specific house. Here is where [Resct Router](https://reactrouter.com/en/main) comes in.
+
 
