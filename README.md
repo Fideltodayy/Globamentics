@@ -1,4 +1,4 @@
-# Globomantics
+# [Globomantics](https://stupendous-conkies-8d30f6.netlify.app/)
 Globomantics Real Estate Agent
 
 Globomantics is a global Real Estate Agent.
@@ -9,4 +9,6 @@ A user can click on one of this list to show a house detail.Here, there is a fee
 You can preview it in the link below:
 https://stupendous-conkies-8d30f6.netlify.app/
 
+## Technical tools
+I used various technical tools to deliver this application's features.
 
