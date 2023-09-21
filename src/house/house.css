@@ -1,4 +1,11 @@
 .price {
-    font-size: larger;
-    color: coral;
-  }
+  font-size: larger;
+  color: coral;
+}
+.inquirybtn {
+  background-color: rgb(255, 190, 166);
+  border-radius: 2px;
+  display: inline;
+  margin: 10px;
+  cursor: pointer;
+}
