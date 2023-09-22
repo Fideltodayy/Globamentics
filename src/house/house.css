@@ -9,3 +9,9 @@
   margin: 10px;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+  .col-md-5 {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

@@ -7,7 +7,7 @@ const HouseFilter = ({ allHouses }) => {
     ? Array.from(new Set(allHouses.map((h) => h.country)))
     : [];
   countries.unshift(null);
-  console.log(countries);
+  // console.log(countries);
 
   const onSearchChange = (e) => {
     const country = e.target.value;

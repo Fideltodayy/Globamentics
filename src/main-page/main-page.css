@@ -1,14 +1,27 @@
-.logo{
+.logo {
   height: 150px;
 }
 
-.subtitle{
+.subtitle {
   font-size: x-large;
   font-style: italic;
   color: coral;
+  flex-grow: 1;
 }
 
-.featuredHouse{
-  background-color: rgb(255, 190, 166) ;
+.featuredHouse {
+  background-color: rgb(255, 190, 166);
   border-radius: 2px;
+}
+
+/* header.css */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  flex-shrink: 0; /* Prevent the logo from shrinking */
 }

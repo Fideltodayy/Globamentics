@@ -10,7 +10,7 @@ const House = ({ house }) => {
     setInquiryShown(!inquiryShown);
   };
   return (
-    <div>
+    <div className="container">
       <div className="row mt-2">
         <h5 className="col-md-12 text-uppercase fs-1">{house.country}</h5>
       </div>
@@ -19,7 +19,11 @@ const House = ({ house }) => {
       </div>
       <div className="row">
         <div className="col-md-7">
-          <img src={`/images/${house.photo}.jpeg`} alt="House" />
+          <img
+            src={`/images/${house.photo}.jpeg`}
+            alt="House"
+            className="img-fluid"
+          />
         </div>
         <div className="col-md-5">
           <p className="price">${house.price}</p>
