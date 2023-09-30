@@ -25,3 +25,13 @@
 .logo-container {
   flex-shrink: 0; /* Prevent the logo from shrinking */
 }
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: center;
+}
