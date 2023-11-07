@@ -18,3 +18,4 @@ Now links to houses can be shared using the likes of social media.
 
 * I used [CONTEXT API](https://legacy.reactjs.org/docs/context.html) to share data efficciently accross my components
 
+need to implement geolocations
